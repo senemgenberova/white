@@ -24,7 +24,8 @@ body{
 .first_slider .white_content p{
 	color: #3A3737;
 	font-size: 25px;
-	font-weight: 300;	
+	font-weight: 300;
+	line-height: 30px;	
 }
 
 .first_slider .white_content{
@@ -114,6 +115,7 @@ body{
 	color: #666;
 	font-weight: 300;
 	margin-bottom: 25px;
+	line-height: 25px;
 }
 
 .more_template{
@@ -145,7 +147,7 @@ body{
 
 .multi_purpose .responsive{
 	position: absolute;
-	bottom: 15px;
+	bottom: 10%;
 	right: 15px;
 }
 
@@ -187,12 +189,54 @@ body{
 
 .about_team .directs .direct_style:hover{
 	color: #000;
-	border: 2px solid;
+	border:2px solid;
 	cursor: pointer;
 	transition-duration: .7s;
 }
 
 .about_team .team_slider{
+	margin-top: 45px;
+	position: relative;
+	/*display: inline-block;*/
+}
+
+.team_slider .member_info{
+	text-align: center;
+	font-size: 22px;
+	font-weight: 400;
+	color: white;
+	position: absolute;
+	top: 40%;
+	left: 9%;
+}
+
+.team_slider .member_info p{
+	color: #666;
+	font-size: 15px;
+	margin-top: 15px;
+}
+
+.team_slider .media_info{
+	margin-top: 45px;
+	color: #666;
+	font-size: 30px;
+}
+.team_slider .media_info i{
+	border: 2px solid;
+	padding: 15px 18px;
+	border-radius: 100%
+}
+
+.team_slider .media_info i:first-child{
+	margin-right: 15px;
+}
+
+.team_slider .media_info i:hover{
+	color: white;
+	transition-duration: .7s
+}
+
+/*.about_team .team_slider{
 	text-align: center;
 	color:#666;
 	font-weight: 400;
@@ -232,7 +276,7 @@ body{
 .team_slider .member_info .social_info i:hover{
 	color: white;
 	transition-duration: .7s;
-}
+}*/
 
 
 
@@ -267,6 +311,7 @@ body{
 
 .posts ul li .post_content p{
 	margin-bottom: 6px;
+	line-height: 16px;
 }
 
 .posts ul li .post_content small{
