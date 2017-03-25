@@ -1,3 +1,7 @@
+*{
+    box-sizing: border-box;
+}
+
 html,
 body {
     margin: 0;
@@ -98,6 +102,7 @@ body {
     width: 83.3333%;
 }
 
+
 .col11 {
     width: 91.6667%;
 }
@@ -129,3 +134,137 @@ body {
 .cursor{
     cursor: pointer;
 }
+
+
+/*@media only screen and (min-width: 600px) {
+    
+    .col_m_1 {
+        width: 8.33%;
+    }
+    .col_m_2 {
+        width: 16.66%;
+    }
+    .col_m_3 {
+        width: 25%;
+    }
+    .col_m_4 {
+        width: 33.33%;
+    }
+    .col_m_5 {
+        width: 41.66%;
+    }
+    .col_m_6 {
+        width: 50%;
+    }
+    .col_m_7 {
+        width: 58.33%;
+    }
+    .col_m_8 {
+        width: 66.66%;
+    }
+    .col_m_9 {
+        width: 75%;
+    }
+    .col_m_10 {
+        width: 83.33%;
+    }
+    .col_m_11 {
+        width: 91.66%;
+    }
+    .col_m_12 {
+        width: 100%;
+    }
+}
+*/
+
+/*@media only screen and (min-width: 768px) {
+    .col1 {
+        width: 8.3333%;
+    }
+
+    .col_offset_1 {
+        margin-left: 8.3333%;
+    }
+
+    .col2 {
+        width: 16.667%;
+    }
+
+    .col_offset_2 {
+        margin-left: 16.667%;
+    }
+
+    .col3 {
+        width: 25%;
+    }
+
+    .col_offset_3 {
+        margin-left: 25%;
+    }
+
+    .col4 {
+        width: 33.3333%;
+    }
+
+    .col_offset_4 {
+        margin-left: 33.3333%;
+    }
+
+    .col5 {
+        width: 41.6667%;
+    }
+
+    .col_offset_5 {
+        margin-left: 41.6667%;
+    }
+
+    .col6 {
+        width: 50%;
+    }
+
+    .col_offset_6 {
+        margin-left: 50%;
+    }
+
+    .col7 {
+        width: 58.3333%;
+    }
+
+    .col_offset_7 {
+        margin-left: 58.3333%;
+    }
+
+    .col8 {
+        width: 66.6667%;
+    }
+
+    .col_offset_8 {
+        margin-left: 66.6667%;
+    }
+
+    .col9 {
+        width: 75%;
+    }
+
+    .col_offset_9 {
+        margin-left: 75%;
+    }
+
+    .col10 {
+        width: 83.3333%;
+    }
+
+    .col11 {
+        width: 91.6667%;
+    }
+
+    .col12 {
+        width: 100%;
+    }
+}*/
+
+/*@media only screen and (max-width: 600px){
+    .first_slider{
+        color: red;
+    }
+}*/
