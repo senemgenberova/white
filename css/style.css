@@ -4,13 +4,15 @@ body{
 
 .content .first_slider{
 	padding: 115px 0 130px 0;
-	background: url(../img/bg1.jpg);
+	background-image: url(../img/bg1.jpg);
 	background-size: cover;
+	background-repeat: no-repeat;
 	position: relative;
 }
 
 .first_slider .white_content{
 	margin-bottom: 12%;
+	color: #3A3737;
 }
 
 .first_slider .white_content .heading{
@@ -36,7 +38,6 @@ body{
 
 .first_slider .white_content p{
 	animation: down_to_up 1s ease-in-out;
-	color: #3A3737;
 	font-size: 25px;
 	font-weight: 300;
 	line-height: 30px;	
@@ -77,6 +78,7 @@ body{
 .slider .slider_album li img{
 	width: 97px;
 	height: 62px;
+	cursor: pointer;
 }
 
 .slider .slider_album li .active{
@@ -152,7 +154,7 @@ body{
 	margin-top: 12%;
 	text-align: center;
 	font-weight: bold;
-	font-size: 14px;
+	font-size: 13px;
 }
 
 .more_template .buy_theme{
@@ -187,11 +189,21 @@ body{
 	animation: visible 1s ease-in-out;
 }
 
+.logos .logo img{
+	filter: grayscale(100%);
+	opacity: .6
+}
+
+.logos .logo img:hover{
+	transition: all 0.3s linear; 
+	filter: grayscale(0);
+	opacity: 1
+}
+
 .content .about_team{
 	background: url("../img/team_bg.jpg");
 	background-size: cover;
 	padding: 60px 0 90px 0;
-	overflow: hidden;
 }
 
 .about_team .our_team{
@@ -239,13 +251,13 @@ body{
 .outer_team .team_slider{
 	animation: visible 1s ease-in-out;
 	margin-top: 65px;
-	width: 270%
+	width: 1000%;
 }
-
 
 .outer_team .team_member{
 	position: relative;
 	float: left;
+	display: inline-block;
 	margin-right: 20px;
 }
 
@@ -266,16 +278,17 @@ body{
 	opacity: 0;
 }
 
-.team_member .member_info:hover{
+/*.team_member .member_info:hover{
 	opacity: 1;
-	transition: all 0.5s ease-in-out;
-}
+	transition: opacity .5s linear;
+}*/
 
 
 .member_info .name_position{
 	position: absolute;
 	top: 40%;
 	left: 32%;
+	pointer-events: none;
 }
 
 .member_info .name_position p{
@@ -285,7 +298,6 @@ body{
 }
 
 .member_info .media_info{
-	transition:bottom 0.5s ease-in-out, opacity 0.5s ease-in-out;
 	position: absolute;
 	top: 55%;
 	left: 27%;
@@ -293,7 +305,6 @@ body{
 	color: #666;
 	font-size: 30px;
 }
-
 
 .member_info .media_info i{
 	border: 2px solid;
@@ -308,7 +319,7 @@ body{
 
 .member_info .media_info i:hover{
 	color: white;
-	transition-duration: .7s
+	transition-duration: .7s;
 }
 
 .footer{

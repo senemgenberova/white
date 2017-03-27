@@ -263,8 +263,8 @@ body {
     }
 }*/
 
-/*@media only screen and (max-width: 600px){
-    .first_slider{
+@media only screen and (min-width: 600px){
+    .first_slider .heading{
         color: red;
     }
-}*/
+}

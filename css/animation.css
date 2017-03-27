@@ -63,7 +63,7 @@
 	}
 }
 
-@keyframes name_position{
+@keyframes name_position_fadeIn{
 	0%{
 		opacity: 0;
 		transform: translateY(-40px);
@@ -74,7 +74,7 @@
 	}
 }
 
-@keyframes media_info{
+@keyframes media_info_fadeIn{
 	0%{
 		opacity: 0;
 		transform: translateY(40px);
@@ -82,5 +82,53 @@
 	100%{
 		opacity: 1;
 		transform: translateY(0);
+	}
+}
+
+@keyframes name_position_fadeOut{
+	0%{
+		opacity: 1;
+		transform: translateY(0);
+	}
+	100%{
+		opacity: 0;
+		transform: translateY(-30px);
+	}
+}
+
+@keyframes media_info_fadeOut{
+	0%{
+		opacity: 1;
+		transform: translateY(0);
+	}
+	100%{
+		opacity: 0;
+		transform: translateY(30px);
+	}
+}
+
+@keyframes yes{
+	0%{
+		transform: translateY(18px);
+		opacity: .5
+	}
+	50%{
+		opacity: .8
+	}
+	100%{
+		opacity: 1;
+	}
+}
+
+@keyframes buy_theme{
+	0%{
+		transform: translateY(-18px);
+		opacity: .5
+	}
+	50%{
+		opacity: .8
+	}
+	100%{
+		opacity: 1
 	}
 }
