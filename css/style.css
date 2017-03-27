@@ -10,9 +10,22 @@ body{
 	position: relative;
 }
 
+
 .first_slider .white_content{
 	margin-bottom: 12%;
 	color: #3A3737;
+	display: inline-block;
+}
+
+.visible{
+	opacity: 0;
+	position: absolute;
+	top: 10%;
+	left: 0;
+	/*transform: translateX(100px);*/
+}
+.first_slider .activate{
+	opacity: 1;
 }
 
 .first_slider .white_content .heading{
@@ -22,6 +35,7 @@ body{
 	margin-bottom: 25px;
 	font-weight: 200;
 }
+
 .first_slider .white_content .heading h3{
 	animation: up_to_down 1s ease-in-out;
 	float: left;
@@ -81,14 +95,14 @@ body{
 	cursor: pointer;
 }
 
-.slider .slider_album li .active{
+.slider .slider_album .active{
 	box-sizing: border-box;
 	border: 6px solid white;
 	height: 75px;
 	position: relative;
 }
 
-.slider .slider_album li .active::before{
+.slider .slider_album .active::before{
 	position: absolute;
 	content: "";
 	width: 0;
@@ -107,6 +121,7 @@ body{
 	color: #333333;
 	font-weight: bold;
 	text-align: center;
+	animation: read .6s ease-in-out;
 }
 
 .slider .read p i{
@@ -277,12 +292,6 @@ body{
 	color: white;
 	opacity: 0;
 }
-
-/*.team_member .member_info:hover{
-	opacity: 1;
-	transition: opacity .5s linear;
-}*/
-
 
 .member_info .name_position{
 	position: absolute;
